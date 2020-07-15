@@ -1,45 +1,43 @@
 * {
     padding: 0;
-    margin:0;
-    }
+    margin: 0;
+  }
+  body {
+    background-color: antiquewhite;
+  }
+  .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: deepskyblue;
+  }
+  .logo {
+      padding: 1em;
+      text-transform: uppercase;
+  }
+  .logo a {
+      color: rgb(28, 24, 22);
+  }
+  ul {
+      list-style: none;
+      text-transform: uppercase;
+      display: flex;
+  }
+  .logo a,
+  ul a {
+      text-decoration: none;
+      letter-spacing: .45em;
+  }
+  ul a {
+      display: block;
+      padding: 1em;
+      color: white;
+  }
+  ul a:hover {
+      background: #00ace6;
+  }
 
-    body {background-color: antiquewhite;
-    }
-    
 
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-    }
-    .logo {
-        padding: 1em;
-        text-transform: uppercase;
-    }
-
-    ul  {
-        background-color: black;
-    }
-.logo a {
-    color: magenta;
-}
-
-ul {
-    list-style: none;
-    text-transform: uppercase;
-
-}
-
-.logo a,
-ul a {
-    text-decoration: mediumturquoise;
-    
-}
-ul a {
-    display: block;
-    padding: 1em;
-    color: white;
-
-}
 
 /*******DOGS********/
 .dogs {
@@ -50,4 +48,14 @@ ul a {
 
 .dogs img {
  
+}
+.cats {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+}
+
+.cats img {
+    height: 300px;
 }
